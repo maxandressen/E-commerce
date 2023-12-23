@@ -1,12 +1,13 @@
 <?PHP
+    $server = "localhost";
+    $username ="root";
+    $password = "";
+    $database ="furni";
+
+
     mysqli_connect(
 
-        "localhost",
-        "root",
-        "",
-        
-
-
+        $server,$username,$password,$database
     )
 
 
